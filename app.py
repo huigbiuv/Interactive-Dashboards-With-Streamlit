@@ -11,7 +11,7 @@ st.sidebar.title("Sentiment Analysis of Tweets about US Airlines")
 st.markdown(" This application is a Streamlit app used to analyze the sentiment of the tweets 🐦 about US airlines ✈️ ")
 st.sidebar.markdown(" This application is a Streamlit app used to analyze the sentiment of the tweets 🐦 about US airlines ✈️ ")
 
-
+'''
 DATA_URL = ("/home/rhyme/Desktop/Project/Tweets.csv")
 
 @st.cache(persist=True)
@@ -73,3 +73,4 @@ if not st.sidebar.checkbox("Close", True, key = '3'):
     plt.xticks([])
     plt.yticks([])
     st.pyplot()
+'''
